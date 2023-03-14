@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.gridOne {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.gridTwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.G2item1 {
+  background-color: blue;
+  color: white;
+}
+
+.G2item2{
+    background-color: yellow;
+    color: blue;
+}
+
+.G2item3{
+    background-color: red;
+    color: white;
+}
+
+.gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+}
+
+.G3item1{
+    background-color: khaki;
+    color: royalblue;
+}
+
+.G3item2{
+    background-color: rgb(180, 240, 222);
+}
+
+.G3item2 img {
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+}
+
+.gridFour{
+    width: 500px;
+    background-color: green;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+#G4id{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridFive{
+    width: 500px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: greenyellow;
+}
+
+#G5id{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#G5id img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gridSix{
+    background-color: lightgray;
+    width: 500px;
+    display: grid;   
+    grid-template-columns: 1fr 3fr;
+    justify-items: center;
+    position: relative;
+}
+.G6item1{
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.G6item2{
+    font-family: 'Righteous', cursive;
+    font-size: 1.8rem;
+}
+
+

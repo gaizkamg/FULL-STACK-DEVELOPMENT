@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 0.625em;
+}
+
+body {
+  /* Modificar */
+  font-family: "LatoRegular", sans-serif;
+  background-color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #949494;
+  margin: 2rem;
+}
+
+iframe {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+:focus{
+  outline: 0;
+}
+
+input{
+  width: 100%;
+}
+/* -------------------------------------------- */
+@font-face {
+    font-family: "LatoRegular";
+    src: url(https://www.dailysmarty.com/assets/Lato-Regular-7ae714b63c2c8b940bdd211a0cc678f01168a34eea8aa13c0df25364f29238a7.ttf);
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "LatoLight";
+    src: url(https://www.dailysmarty.com/assets/Lato-Light-05903540a0675491fda9015a78c05bb589769951befab12a58a5568175566b49.ttf);
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "LatoBold";
+    src: url(https://www.dailysmarty.com/assets/Lato-Bold-14f7de6b616950395062902eb8f70f01c0a901223db5d40f2a05728ac4a830f6.ttf);
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
+  .searchHeader{
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .searchHeader img{
+    width: 75px;
+  }
+
+  .searchBarContainer{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 5rem auto;
+    width: 75%;
+    position: relative;
+    box-shadow: 0px 0px 1rem #9c9d9e;
+    border-radius: 0.3rem;
+  }
+
+  .searchBarContainer:hover{
+    padding: 1rem;
+    margin: 5rem auto;
+    width: 75%;
+    width: 75%;
+    box-shadow: 0px 0px 2rem #333333;
+  }
+
+  .searchBarContainer::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 25px;
+    margin: 0 1rem;
+    content: "\f002";
+  }
+
+  .searchBar{
+    margin-left: .5rem;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    border: none;
+    color: #9c9d9e;
+  }
+
+  .searchBarContainer::after{
+    font-size: 1.3rem;
+    position: absolute;
+    bottom: -3rem;
+    right: 0;
+    margin-left: .5rem;
+    content: "Press enter to search";
+  }
+  
+  .recentPostCategory{
+    color: #5798ee;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    width: 75%;
+  }
+
+  .recentPostContainer a{
+    color: #949494;
+  }
+
+  .recentPostContainer{
+    width: 75%;
+    margin: 6rem 0 0 0;
+  }
+
+  .resultLink, .resultLinkMain {
+    font-size: 2rem;
+    font-family: 'LatoBold';
+  }
+
+  .resultLinkMain::after{
+    content: "\f08e";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin: auto 3rem;
+    color: #b3afaf;
+
+  }
+
+  .recentPostsList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 2rem;
+    margin: 2rem auto;
+  }
+
+
+  .recentPosts{
+    font-weight: 500;
+    font-family: 'LatoRegular', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .recentPosts::after{
+    display: block;
+    font-family: 'LatoLight';
+    content: 'JavaScript';
+    font-size: 1.3rem;
+  }
