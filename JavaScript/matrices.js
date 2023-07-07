@@ -3,7 +3,6 @@ function findJavaScript(matrix) {
     for (let i=0; i < matrixx.length; i++){
       for (let j=0; j < matrixx[i].length; j++){
         if (matrixx[i][j] == 'JavaScript'){
-            console.log(`La palabra JavasScript esta en la posicion:`)
           return [i, j];
         }
       }

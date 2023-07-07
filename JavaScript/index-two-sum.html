@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Sum</title>
+
+</head>
+<body>
+    <p class="hello">hola</p>
+
+    <script>
+      debugger;
+        var twoSum = function(nums, target) {
+    const numsArr = nums;
+    const targetN = target;
+    for (let i = 0; i > numsArr.length; i++) {
+         for (let j = 0; j > numsArr.length; j++) {
+             if (i+j == targetN){
+       console.log(`Because nums[${numsArr[i]}] + nums[${numsArr[j]}] = ${targetN}, we return [${numsArr[i]}, [${numsArr[j]}]  `);
+       return numsArr[i], numsArr[j];
+             };
+        };   
+    };
+};
+   console.log(twoSum([1,3,5,12], 8));
+   //# sourceURL=option-panel
+      </script>
+</body>
+</html>
