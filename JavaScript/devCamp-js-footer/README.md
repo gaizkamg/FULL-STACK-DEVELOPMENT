@@ -4,13 +4,13 @@
 
 Install with the command:
 ``` 
-npm install --save devCamp-js-footer
+npm install --save devCamp-js-footer-gm
 ```
 
 Add to JavaScript Project with the following code:
 
 ```javascript
-import { footer } from 'devcamp-js-footer';
+import { footer } from 'devcamp-js-footer-gm';
 
 footer('Some Name');
 ```
