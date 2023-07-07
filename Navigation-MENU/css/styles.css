@@ -127,12 +127,8 @@ width: 150px;
         z-index: -1;
     }
 
-    #main-menu.nohidden{
-        display: none;
-    }
 
     #main-menu.hidden {
-    display: inline-block;
     transform: translateY(-100%);
     }
 
