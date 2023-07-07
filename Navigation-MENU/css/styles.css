@@ -127,8 +127,8 @@ width: 150px;
         z-index: -1;
     }
 
+
     #main-menu.hidden {
-    display: inline-block;
     transform: translateY(-100%);
     }
 
